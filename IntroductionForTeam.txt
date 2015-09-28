@@ -1,0 +1,16 @@
+Hello Everyone.
+
+This is our Repository for Software Development Practice 2015.
+AUT South Campus.
+The team members are
+Aziel Shaw
+Leng Am
+Damion Keeling
+EJ LaMadrid
+
+If you each want to make your own branches you’re encouraged and free too. It may just keep things going smoother for us.
+
+If you need any help with GitHub please let me know.
+Cheers
+
+~Aziel
