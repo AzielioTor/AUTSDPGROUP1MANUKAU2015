@@ -1,16 +1,26 @@
 package nz.ac.aut.mafiahelper;
 
+import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.widget.Button;
 
 
-public class MainMenu extends ActionBarActivity {
+public class MainMenu extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Removal of Action bar
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main_menu);
     }
 
@@ -20,6 +30,7 @@ public class MainMenu extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main_menu, menu);
         return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -35,4 +46,31 @@ public class MainMenu extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //Button for Start Game Activity
+    public void startGameClick(View v){
+        Intent startGmeIntent = new Intent(getApplicationContext(), StartGame.class);
+        startActivity(startGmeIntent);
+    }
+
+    //Button for Options Fragment
+    public void optionsClick(View v){
+
+        FragmentManager fragmentManager = getFragmentManager();
+
+        FragmentTransaction ft = fragmentManager.beginTransaction();
+        Options optFrag = new Options();
+
+        ft.add(R.id.main_id, optFrag);
+        ft.commit();
+
+    }
+
+    //Button for roles Activity
+    public void rolesClick(View v){
+        Intent rolesIntent = new Intent(getApplicationContext(), Roles.class);
+        startActivity(rolesIntent);
+    }
+
+
 }

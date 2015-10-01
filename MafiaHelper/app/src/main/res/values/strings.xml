@@ -3,4 +3,6 @@
 
     <string name="hello_world">Mafia Helper Application SDP 2015!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_start_game">StartGame</string>
+    <string name="title_activity_roles">Roles</string>
 </resources>
