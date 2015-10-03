@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 
 public class Options extends Fragment {
 
-
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.option_fragment, container, false);
