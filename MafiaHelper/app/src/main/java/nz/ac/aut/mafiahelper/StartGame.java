@@ -10,6 +10,7 @@ public class StartGame extends Activity {
 
     private GameState state;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,8 @@ public class StartGame extends Activity {
 
     public void startNewGame(){
         state = GameState.PLAYING;
+
     }
+
 
 }
