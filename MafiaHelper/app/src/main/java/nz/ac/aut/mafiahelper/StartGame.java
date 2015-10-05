@@ -6,10 +6,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class StartGame extends Activity {
 
     private GameState state;
 
+    ArrayList<String> playerNames = new ArrayList<String>();
+    //playerNames.add();
+
+    Scanner input = new Scanner(System.in);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

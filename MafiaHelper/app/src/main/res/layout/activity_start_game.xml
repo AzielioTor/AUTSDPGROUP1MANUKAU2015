@@ -5,42 +5,25 @@
     android:layout_height="match_parent">
 
 
-    <LinearLayout
-        android:orientation="vertical"
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/numPlayers"
+        android:layout_alignEnd="@+id/numPlayers"
+        android:layout_alignLeft="@+id/numPlayers"
+        android:layout_alignStart="@+id/numPlayers" />
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="5 People"
-            android:id="@+id/fiveBttn"
-            android:layout_marginTop="130dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignLeft="@+id/sevenBttn"
-            android:layout_alignStart="@+id/sevenBttn"
-            android:layout_gravity="center_horizontal" />
-
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="6 People"
-            android:id="@+id/sixBttn"
-            android:layout_below="@+id/fiveBttn"
-            android:layout_alignLeft="@+id/fiveBttn"
-            android:layout_alignStart="@+id/fiveBttn"
-            android:layout_marginTop="26dp"
-            android:layout_gravity="center_horizontal" />
-
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="7 People"
-            android:id="@+id/sevenBttn"
-            android:layout_below="@+id/sixBttn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="29dp"
-            android:layout_gravity="center_horizontal" />
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Number Of Players"
+        android:id="@+id/numPlayers"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
 </RelativeLayout>
