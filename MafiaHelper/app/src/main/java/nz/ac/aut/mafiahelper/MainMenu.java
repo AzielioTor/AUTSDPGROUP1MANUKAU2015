@@ -73,6 +73,4 @@ public class MainMenu extends Activity {
         Intent rolesIntent = new Intent(getApplicationContext(), Roles.class);
         startActivity(rolesIntent);
     }
-
-
 }

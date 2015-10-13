@@ -26,4 +26,16 @@
         android:layout_alignBottom="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="66dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/strtBttn"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:nestedScrollingEnabled="true"
+        android:onClick="startMafiaGameClick"
+        />
 </RelativeLayout>
