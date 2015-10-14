@@ -26,6 +26,11 @@
             android:label="@string/title_activity_roles"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".MafiaGame"
+            android:label="@string/title_activity_mafia_game"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
