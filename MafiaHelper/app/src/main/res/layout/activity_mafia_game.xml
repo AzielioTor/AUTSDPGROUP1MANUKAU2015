@@ -1,71 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
 
-    <EditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Player 1"
-        android:ems="10"
-        android:id="@+id/editText2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Players"
+        android:id="@+id/textView2"
+        android:stretchColumns="*"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="65dp"
-        android:enabled="true"
-        android:editable="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Player 2"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:enabled="true"
-        android:editable="true"
-        android:layout_below="@+id/editText2"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Player 3"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:enabled="true"
-        android:editable="true"
-        android:layout_below="@+id/editText3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time"
+        android:id="@+id/timeTxt"
+        android:layout_above="@+id/playerTable"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Player 4"
-        android:ems="10"
-        android:id="@+id/editText5"
-        android:enabled="true"
-        android:editable="true"
-        android:layout_below="@+id/editText4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Player 5"
-        android:ems="10"
-        android:id="@+id/editText6"
-        android:editable="true"
-        android:layout_below="@+id/editText5"
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:id="@+id/playerTable"
+        android:longClickable="false"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:enabled="true" />
+        android:layout_below="@+id/textView2">
+
+    </TableLayout>
 
 </RelativeLayout>
