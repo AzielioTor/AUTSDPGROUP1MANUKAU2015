@@ -36,11 +36,6 @@ public class StartGame extends Activity {
         startActivity(startMafiaIntent);
 
         int noPlayers = Integer.parseInt(numOfPlayers.getText().toString());
-=======
-    public void startNewGame(){
-        state = GameState.PLAYING;
-
->>>>>>> Stashed changes
     }
 
 
