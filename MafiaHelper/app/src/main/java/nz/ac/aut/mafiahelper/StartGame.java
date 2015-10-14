@@ -12,10 +12,18 @@ import android.widget.EditText;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class StartGame extends Activity {
 
     EditText numOfPlayers;
     Button button;
+
+    ArrayList<String> playerNames = new ArrayList<String>();
+    //playerNames.add();
+
+    Scanner input = new Scanner(System.in);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +31,16 @@ public class StartGame extends Activity {
         setContentView(R.layout.activity_start_game);
         numOfPlayers = (EditText) findViewById(R.id.editPlayers);
     }
-
-
     public void startMafiaGameClick(View v){
         Intent startMafiaIntent = new Intent(getApplicationContext(), MafiaGame.class);
         startActivity(startMafiaIntent);
 
         int noPlayers = Integer.parseInt(numOfPlayers.getText().toString());
+=======
+    public void startNewGame(){
+        state = GameState.PLAYING;
+
+>>>>>>> Stashed changes
     }
 
 
