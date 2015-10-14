@@ -38,4 +38,10 @@
         android:nestedScrollingEnabled="true"
         android:onClick="startMafiaGameClick"
         />
+=======
+        android:id="@+id/startButton"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+>>>>>>> Stashed changes
 </RelativeLayout>

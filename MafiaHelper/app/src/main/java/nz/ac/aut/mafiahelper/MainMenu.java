@@ -55,6 +55,16 @@ public class MainMenu extends Activity {
         startActivity(startGmeIntent);
     }
 
+    /**
+     * Button for Instructions
+     * @param v View to pass in
+     * @author Aziel Shaw
+     */
+    public void instructionsClick(View v) {
+        Intent instructionsIntent = new Intent(getApplicationContext(), Instructions.class);
+        startActivity(instructionsIntent);
+    }
+
     //Button for Options Fragment
     public void optionsClick(View v){
 

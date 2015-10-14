@@ -26,6 +26,10 @@
             android:label="@string/title_activity_roles"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
     </application>
 
 </manifest>
