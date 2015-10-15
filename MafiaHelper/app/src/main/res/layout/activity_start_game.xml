@@ -14,14 +14,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="194dp" />
-=======
-        android:id="@+id/editText"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/numPlayers"
-        android:layout_alignEnd="@+id/numPlayers"
-        android:layout_alignLeft="@+id/numPlayers"
-        android:layout_alignStart="@+id/numPlayers" />
->>>>>>> Stashed changes
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,18 +36,5 @@
         android:nestedScrollingEnabled="true"
         android:onClick="startMafiaGameClick"
         />
-=======
-        android:id="@+id/startButton"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
->>>>>>> Stashed changes
-=======
 
->>>>>>> origin/master
-=======
-        android:layout_alignBottom="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="66dp" />
->>>>>>> Stashed changes
 </RelativeLayout>

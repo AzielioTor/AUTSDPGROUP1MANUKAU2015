@@ -17,6 +17,7 @@ import java.util.Scanner;
 
 public class StartGame extends Activity {
 
+    private GameState state;
     EditText numOfPlayers;
     Button button;
 
@@ -38,5 +39,7 @@ public class StartGame extends Activity {
         int noPlayers = Integer.parseInt(numOfPlayers.getText().toString());
     }
 
-
+    public void startNewGame() {
+        state = GameState.PLAYING;
+    }
 }
