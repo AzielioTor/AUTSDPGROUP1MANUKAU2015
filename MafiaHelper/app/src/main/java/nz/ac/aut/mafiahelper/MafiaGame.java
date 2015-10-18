@@ -1,6 +1,7 @@
 package nz.ac.aut.mafiahelper;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,20 +16,23 @@ public class MafiaGame extends Activity {
 
     private static final int NUM_COLS = 1;
     private GameState state;
-    private int NUM_ROWS = 5;
+    //private int NUM_ROWS = numOfPlayers;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mafia_game);
-
-        playerSetButtons();
+        Intent startMafiaIntent = getIntent();
+        int numOfPlayers = startMafiaIntent.getIntExtra("", 0);
+        playerSetButtons(numOfPlayers);
     }
 
-    public void playerSetButtons(){
+    public void playerSetButtons(int numOfPlayers){
         //Table, making of new table
         TableLayout table = (TableLayout) findViewById(R.id.playerTable);
-        for(int row = 0; row < NUM_ROWS; row++){
+        for(int row = 0; row < numOfPlayers; row++){
             TableRow playerRow = new TableRow(this);
             playerRow.setLayoutParams(new TableLayout.LayoutParams(
                     TableLayout.LayoutParams.MATCH_PARENT,

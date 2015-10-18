@@ -33,10 +33,11 @@ public class StartGame extends Activity {
         numOfPlayers = (EditText) findViewById(R.id.editPlayers);
     }
     public void startMafiaGameClick(View v){
-        Intent startMafiaIntent = new Intent(getApplicationContext(), MafiaGame.class);
+        Intent startMafiaIntent = new Intent(StartGame.this , MafiaGame.class);
+        startMafiaIntent.putExtra("", numOfPlayers.getText().length());
         startActivity(startMafiaIntent);
 
-        int noPlayers = Integer.parseInt(numOfPlayers.getText().toString());
+        //int noPlayers = Integer.parseInt(numOfPlayers.getText().toString());
     }
 
     public void startNewGame() {
