@@ -16,16 +16,16 @@ public class MafiaGame extends Activity {
 
     private static final int NUM_COLS = 1;
     private GameState state;
-    //private int NUM_ROWS = numOfPlayers;
-
-
+    //private int NUM_ROWS = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mafia_game);
+
         Intent startMafiaIntent = getIntent();
-        int numOfPlayers = startMafiaIntent.getIntExtra("", 0);
+        int numOfPlayers = startMafiaIntent.getIntExtra("passNumPlayer", 0);
+
         playerSetButtons(numOfPlayers);
     }
 
