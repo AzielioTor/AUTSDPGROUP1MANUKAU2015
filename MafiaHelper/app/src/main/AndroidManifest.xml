@@ -31,6 +31,11 @@
             android:label="@string/title_activity_mafia_game"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Instructions"
+            android:label="@string/title_activity_instructions"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

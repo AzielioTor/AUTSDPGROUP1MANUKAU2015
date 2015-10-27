@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="Instructions"
             android:id="@+id/instBttn"
-            />
+            android:onClick="instructionsClick" />
 
         <Button
             android:layout_width="match_parent"
