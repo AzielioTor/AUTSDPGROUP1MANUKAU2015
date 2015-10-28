@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mafia-"
+        android:id="@+id/mafiaText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The Narrator will tell everyone to close their eyes when it becomes night. And then tell everyone who is a mafia to open their eyes. The mafia will then vote on who they think should die that night. Then they go back to sleep and the narrator continues play.
+        \n-TIP As a mafia remember who your teammates are
+        \n-TIP As a citizen mafia often try to back each other up. Be aware."
+        android:id="@+id/mafiaRoleExplanation"
+        android:layout_alignTop="@+id/mafiaText"
+        android:layout_toRightOf="@+id/mafiaText"
+        android:layout_toEndOf="@+id/mafiaText" />
+
+</RelativeLayout>

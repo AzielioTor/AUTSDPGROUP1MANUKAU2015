@@ -3,4 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Instructions - How to play"
+        android:id="@+id/instructionsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="In Mafia, the Narrator will direct the flow of play. Once you have assigned everyone roles (Usually done by passing out cards) the game will start. The narrator will tell everyone to go to sleep. Upon everyone sleeping he will tell everyone who has the role of &apos;Mafia&apos; to wake up and vote on someone to kill. Upon their choosing they will go back to sleep and then the Narrator will tell the &apos;Doctor&apos; to wake up. The doctor will choose someone to save. If he chooses the same person that the Mafia have chosen to kill then that person is not dead. The doctor will sleep and the sherrif will wake up. He points at a random player to get inside knowledge from the Narrator about whether or not that person is a member of the mafia or not. After nodding his head for yes or shaking his head for no. The narrator will tell the sherrif to sleep. He then tells the whole town to wake up and if someone died last night (To the mafia) that person is out of the game. The day round starts and the town must discuss and figure out who they think are the mafia members and get them voted out.         \nDuring the discussion someone may formally accuse someone else of being a member of the mafia. IF that vote gets seconded then the person is put to trial. Players must then stick out their hands and on the count of three either thumbs up (to say they don&apos;t die), thumbs down (to say they do die) or keep their thumbs sideways (abstaining from voting). If the kills outweigh the lynch that person dies and is out of the game. (You can reveal that persons role on death optional house rule). The down goes back to sleep and play repeats until either all the Mafia are killed, or there are equal or more mafia members than townspeople."
+        android:id="@+id/instructionsDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/instructionsTitle" />
 </RelativeLayout>

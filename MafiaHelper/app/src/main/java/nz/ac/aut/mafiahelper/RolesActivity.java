@@ -3,10 +3,6 @@ package nz.ac.aut.mafiahelper;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class RolesActivity extends Activity {
@@ -23,7 +19,7 @@ public class RolesActivity extends Activity {
     }
 
     public void villClick(View v){
-        Intent villIntent = new Intent(getApplicationContext(), Villans.class);
+        Intent villIntent = new Intent(getApplicationContext(), MafiaRoleActivity.class);
         startActivity(villIntent);
 
     }

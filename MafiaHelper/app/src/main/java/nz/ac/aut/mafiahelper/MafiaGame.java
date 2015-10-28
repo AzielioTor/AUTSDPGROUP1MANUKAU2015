@@ -55,7 +55,9 @@ public class MafiaGame extends Activity {
 
     public void playerSetButtons(int numOfPlayers){
         ListView table = (ListView) findViewById(R.id.playerTable);
-        table.
+        for(int i = 0; i < numOfPlayers; i++) {
+            //table.
+        }
     }
 
    public MafiaGame (){

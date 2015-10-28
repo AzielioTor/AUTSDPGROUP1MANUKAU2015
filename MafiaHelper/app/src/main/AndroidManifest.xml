@@ -47,7 +47,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".Villans"
+            android:name=".MafiaRoleActivity"
             android:label="@string/title_activity_villans"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
