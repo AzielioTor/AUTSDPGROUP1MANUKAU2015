@@ -11,4 +11,6 @@
     <string name="title_activity_heroes">Heroes</string>
     <string name="title_activity_villans">Villans</string>
     <string name="title_activity_neutrals">Neutrals</string>
+    <string name="title_activity_heroes2">Heroes2</string>
+    <string name="title_activity_heroes_role3">HeroesRole3</string>
 </resources>

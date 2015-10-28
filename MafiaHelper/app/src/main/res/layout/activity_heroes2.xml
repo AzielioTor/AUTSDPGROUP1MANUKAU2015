@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cops"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cops are the detectives of the the group. They are able to identify precisely who are the Villans \n \n Identifying  the villans are allowed at night time at this time a cop is able to choose a person and ask if they are a villan or a hero \n \n Cops are hard to play as they can be recognized by the Villans if played wrong \n \n Thus reducing the probability of the Heros winning"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:password="false" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nxtBttn2"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_marginTop="71dp"
+        android:onClick="nextClick2"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:id="@+id/bckBttn"
+        android:layout_alignBottom="@+id/nxtBttn2"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="bckClick"
+        />
+</RelativeLayout>

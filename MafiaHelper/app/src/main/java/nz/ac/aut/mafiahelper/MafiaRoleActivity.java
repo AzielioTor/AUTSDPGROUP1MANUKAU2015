@@ -10,4 +10,5 @@ public class MafiaRoleActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mafia);
     }
+
 }

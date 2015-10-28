@@ -42,7 +42,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".Heroes"
+            android:name=".HeroesRole"
             android:label="@string/title_activity_heroes"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
@@ -54,6 +54,16 @@
         <activity
             android:name=".Neutrals"
             android:label="@string/title_activity_neutrals"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".HeroesRole2"
+            android:label="@string/title_activity_heroes2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".HeroesRole3"
+            android:label="@string/title_activity_heroes_role3"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

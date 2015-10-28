@@ -4,4 +4,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Civilians"
+        android:id="@+id/textView3"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView4"
+        android:text="Civilians are the main protagonist of the game. \n They are the defenders of the city against the mafia. \n \n Civilians vote to guess who are the mafia amongst the townspeople. And try to kill the the Villans in the morning \n \n But beware as the Villans are in sheep&apos;s clothing, these guys might turn against you and defeat the Heroes"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nxtBttn"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:onClick="nextClick"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:id="@+id/exitBttn"
+        android:layout_alignBottom="@+id/nxtBttn"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:onClick="exitClick"
+        />
 </RelativeLayout>

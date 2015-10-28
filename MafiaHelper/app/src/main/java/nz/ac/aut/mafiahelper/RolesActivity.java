@@ -14,7 +14,7 @@ public class RolesActivity extends Activity {
         }
 
     public void heroClick(View v){
-        Intent heroIntent = new Intent(getApplicationContext(), Heroes.class);
+        Intent heroIntent = new Intent(getApplicationContext(), HeroesRole.class);
         startActivity(heroIntent);
     }
 

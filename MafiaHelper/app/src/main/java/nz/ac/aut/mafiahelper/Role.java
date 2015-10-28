@@ -8,4 +8,6 @@ public enum Role {
     MAFIOSO,
     SHERRIF,
     DOCTOR;
+
+
 }
