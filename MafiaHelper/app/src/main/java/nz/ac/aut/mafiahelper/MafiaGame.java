@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
@@ -29,27 +30,32 @@ public class MafiaGame extends Activity {
         playerSetButtons(numOfPlayers);
     }
 
-    public void playerSetButtons(int numOfPlayers){
-        //Table, making of new table
-        TableLayout table = (TableLayout) findViewById(R.id.playerTable);
-        for(int row = 0; row < numOfPlayers; row++){
-            TableRow playerRow = new TableRow(this);
-            playerRow.setLayoutParams(new TableLayout.LayoutParams(
-                    TableLayout.LayoutParams.MATCH_PARENT,
-                    TableLayout.LayoutParams.MATCH_PARENT, 1.0f
-            ));
-            table.addView(playerRow);
+//    public void playerSetButtons(int numOfPlayers){
+//        //Table, making of new table
+//        TableLayout table = (TableLayout) findViewById(R.id.playerTable);
+//        for(int row = 0; row < numOfPlayers; row++){
+//            TableRow playerRow = new TableRow(this);
+//            playerRow.setLayoutParams(new TableLayout.LayoutParams(
+//                    TableLayout.LayoutParams.MATCH_PARENT,
+//                    TableLayout.LayoutParams.MATCH_PARENT, 1.0f
+//            ));
+//            table.addView(playerRow);
+//
+//          for(int col = 0; col < NUM_COLS; col++){
+//                //Buttons, Scaling on the new table
+//                Button playerBttns = new Button(this);
+//                playerBttns.setLayoutParams(new TableRow.LayoutParams(
+//                        TableRow.LayoutParams.MATCH_PARENT,
+//                        TableRow.LayoutParams.MATCH_PARENT, 1.0f
+//                ));
+//                playerRow.addView(playerBttns);
+//            }
+//        }
+//    }
 
-          for(int col = 0; col < NUM_COLS; col++){
-                //Buttons, Scaling on the new table
-                Button playerBttns = new Button(this);
-                playerBttns.setLayoutParams(new TableRow.LayoutParams(
-                        TableRow.LayoutParams.MATCH_PARENT,
-                        TableRow.LayoutParams.MATCH_PARENT, 1.0f
-                ));
-                playerRow.addView(playerBttns);
-            }
-        }
+    public void playerSetButtons(int numOfPlayers){
+        ListView table = (ListView) findViewById(R.id.playerTable);
+        table.
     }
 
    public MafiaGame (){

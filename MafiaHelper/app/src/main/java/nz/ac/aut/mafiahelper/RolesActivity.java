@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class Roles extends Activity {
+public class RolesActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

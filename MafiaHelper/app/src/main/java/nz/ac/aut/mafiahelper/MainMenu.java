@@ -9,7 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
-import android.widget.Button;
 
 /**
  * @author Aziel Shaw
@@ -70,7 +69,7 @@ public class MainMenu extends Activity {
 
     //Button for roles Activity
     public void rolesClick(View v){
-        Intent rolesIntent = new Intent(getApplicationContext(), Roles.class);
+        Intent rolesIntent = new Intent(getApplicationContext(), RolesActivity.class);
         startActivity(rolesIntent);
     }
 

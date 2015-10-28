@@ -22,7 +22,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".Roles"
+            android:name=".RolesActivity"
             android:label="@string/title_activity_roles"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
