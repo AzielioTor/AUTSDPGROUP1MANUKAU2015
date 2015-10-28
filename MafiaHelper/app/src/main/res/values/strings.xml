@@ -7,4 +7,8 @@
     <string name="title_activity_roles">Roles</string>
     <string name="title_activity_mafia_game">MafiaGame</string>
     <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_instruction">Instruction</string>
+    <string name="title_activity_heroes">Heroes</string>
+    <string name="title_activity_villans">Villans</string>
+    <string name="title_activity_neutrals">Neutrals</string>
 </resources>

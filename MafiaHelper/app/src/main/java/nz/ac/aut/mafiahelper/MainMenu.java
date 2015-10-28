@@ -76,7 +76,7 @@ public class MainMenu extends Activity {
 
     //Button for roles Activity
     public void instructionsClick(View v) {
-        Intent instructionsIntent = new Intent(getApplicationContext(), Instructions.class);
+        Intent instructionsIntent = new Intent(getApplicationContext(), Instruction.class);
         startActivity(instructionsIntent);
     }
 }

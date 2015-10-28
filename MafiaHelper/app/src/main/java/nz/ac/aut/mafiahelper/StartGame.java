@@ -16,7 +16,6 @@ import java.util.Scanner;
 public class StartGame extends Activity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

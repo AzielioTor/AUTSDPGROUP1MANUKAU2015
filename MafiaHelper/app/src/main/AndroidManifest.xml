@@ -36,6 +36,26 @@
             android:label="@string/title_activity_instructions"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Instruction"
+            android:label="@string/title_activity_instruction"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Heroes"
+            android:label="@string/title_activity_heroes"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Villans"
+            android:label="@string/title_activity_villans"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Neutrals"
+            android:label="@string/title_activity_neutrals"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
