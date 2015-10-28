@@ -5,4 +5,31 @@
     android:layout_height="match_parent"
     >
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heroes"
+        android:id="@+id/heroBttn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Villans"
+        android:id="@+id/villBttn"
+        android:layout_below="@+id/heroBttn"
+        android:layout_alignLeft="@+id/heroBttn"
+        android:layout_alignStart="@+id/heroBttn"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extras"
+        android:id="@+id/exBttn"
+        android:layout_below="@+id/villBttn"
+        android:layout_alignRight="@+id/villBttn"
+        android:layout_alignEnd="@+id/villBttn"
+        android:layout_marginTop="37dp" />
 </RelativeLayout>
